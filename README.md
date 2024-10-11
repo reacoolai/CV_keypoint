@@ -2,7 +2,8 @@
 
 
 
-![粘贴的图像 (3)](/home/reacool/文档/mydata/img/粘贴的图像 (3).png)
+![3]()
+
 
 <video src="https://github.com/reacoolai/CV_keypoint/blob/main/img/9169b1b2a975806b611d1ba2104b6abd_raw.mp4"></video>
 
