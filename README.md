@@ -1,7 +1,9 @@
-                    ## 🤗各类基于opencv和mediapipe的一些Demo。
+             
 
+<div align="center">
+<h1>🤗各类基于opencv和mediapipe的一些Demo</h1>
 
-
+</div>
 <br>
 <img src='https://github.com/reacoolai/CV_keypoint/blob/main/img/3.png'>
 
