@@ -1,7 +1,7 @@
 <br>             
 <br>
 <div align="center">
-<h1>🤗各类基于opencv和mediapipe的一些Demo</h1>
+<h1>🤗关于关键点检测的一些Demo</h1>
 <br>
 </div>
 <br>
