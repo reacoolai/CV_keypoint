@@ -18,6 +18,7 @@
 
 ```pypthon
 git clone https://github.com/reacoolai/CV_keypoint
+cd CV_keypoint
 pip install -r requirements.txt
 ```
 
@@ -46,11 +47,16 @@ Depth-Anything-V2官方提供了4种模型，其中只有small模型的速度支
 ### Running
 
 ```python
-cd Depth-Anything-V2
+
 python mouse_c.py		
 ```
+RGB摄像头图像转换为深度摄像头的图像
 
 
+```python
+
+python rgb_to_rgbd.py
+```
 
 这是一个尝试，如果有用到的地方还有很大的优化空间，这里只是实现这些想法🤗
 
