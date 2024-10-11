@@ -27,8 +27,7 @@ python gui.py
 基于深度预估模型depth-anything-v2和meidapipe结合的检测点增强。
 
 
-
-![粘贴的图像 (2)](/home/reacool/文档/mydata/img/粘贴的图像 (2).png)
+<img src='https://github.com/reacoolai/CV_keypoint/blob/main/img/2.png'>
 
 Depth-Anything-V2官方提供了4种模型，其中只有small模型的速度支持实时视频的检测。这里选择下载small模型。在 Depth-Anything-V2目录下创建一个checkpoints存放模型。
 
