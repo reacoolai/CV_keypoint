@@ -23,7 +23,7 @@ model.load_state_dict(torch.load(f'checkpoints/depth_anything_v2_{encoder}.pth',
 model = model.to(DEVICE).eval()
 
 # Read the RGB image
-raw_img = cv2.imread('/Depth-Anything-V2/assets2/examples/demo04.jpg')
+raw_img = cv2.imread('your_img_path')
 
 # Infer depth map from the image using the model
 depth_map = model.infer_image(raw_img)  # HxW raw depth map in numpy
@@ -50,9 +50,10 @@ def convert_to_rgbd_image(image_path, model):
     return rgb_d_image
 
 # Call the function and save the output as an RGB-D image
-rgb_d_image = convert_to_rgbd_image('/Depth-Anything-V2/assets2/examples/demo04.jpg', model)
+#输入需要转换的图片路径
+rgb_d_image = convert_to_rgbd_image('your_img_path', model)
 
 # Save the RGB-D image (optional)
-output_path = '/home/reacool/桌面/Demo/Depth-Anything-V2/depth_vis/rgbd_image.png'
+output_path = 'your_out_img_path'
 cv2.imwrite(output_path, rgb_d_image)
 
