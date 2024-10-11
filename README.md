@@ -58,7 +58,7 @@ RGB摄像头图像转换为深度摄像头的图像
 python rgb_to_rgbd.py
 ```
 ###  Running 
-在图像上运行脚本
+深度图和灰度深度图
 ```python
 python run.py \
   --encoder <vits | vitb | vitl | vitg> \
